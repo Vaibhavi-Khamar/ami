@@ -28,7 +28,9 @@ workflows:
       - validate
   build-and-merge:
     jobs:
-      - build-base
-          # requires:
-          #   - validate
-          #   - build-base
+      - build-base:
+        filters:
+          branches:
+            only:
+              master
+    
