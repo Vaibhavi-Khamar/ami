@@ -29,8 +29,7 @@ workflows:
   build-and-merge:
     jobs:
       - build-base:
-        filters:
-          branches:
-            only:
-              master
+          filters:
+            branches:
+              only: master
     
