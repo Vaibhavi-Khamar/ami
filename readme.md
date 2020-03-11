@@ -18,4 +18,4 @@ packer build -var-file example.json
 
 Packer will produce and save the image on aws.
 
-Readme update
+Readme update1
